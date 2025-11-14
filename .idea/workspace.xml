@@ -1,8 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f6f28e4d-46f6-492a-b30e-6ac007909c3d" name="Changes" comment="Initial commit">
+    <list default="true" id="f6f28e4d-46f6-492a-b30e-6ac007909c3d" name="Changes" comment="Option menu, compression and decompression error handling, compression support and project structure refactored">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Base64Encoder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Compressor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Encoder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ZlibCompressor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Decoder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -12,11 +19,17 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="test" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="SWAP_SIDES_IN_COMPARE_BRANCHES" value="true" />
   </component>
@@ -33,8 +46,10 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "nodejs_package_manager_path": "npm",
+    "run.code.analysis.last.selected.profile": "pProject Default",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -50,7 +65,10 @@
       <workItem from="1762740275443" duration="43000" />
       <workItem from="1762745523649" duration="6230000" />
       <workItem from="1762776978252" duration="73000" />
-      <workItem from="1762798666658" duration="2946000" />
+      <workItem from="1762798666658" duration="3696000" />
+      <workItem from="1762802763395" duration="198000" />
+      <workItem from="1762802974900" duration="132000" />
+      <workItem from="1763017745419" duration="24240000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1762801004526</created>
@@ -91,6 +109,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Init" />
     <MESSAGE value="Initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial commit" />
+    <MESSAGE value="Option menu, compression and decompression error handling, compression support and project structure refactored" />
+    <option name="LAST_COMMIT_MESSAGE" value="Option menu, compression and decompression error handling, compression support and project structure refactored" />
   </component>
 </project>
